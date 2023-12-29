@@ -1,0 +1,12 @@
+[package]
+name = "mfp_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.11.23"
+serenity = "0.12.0"
+songbird = "0.4.0"
+symphonia = { default-features = false, version = "0.5.3", features = ["mp3"] }
+tokio = { version = "1.35.1", features = ["rt-multi-thread", "signal"] }
+tracing-subscriber = "0.3.18"
